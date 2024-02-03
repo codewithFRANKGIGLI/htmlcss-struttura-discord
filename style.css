@@ -13,35 +13,46 @@
 /*------------------- GENERAL -------------------*/
 .container {
     display: flex;
-    justify-content: center;
     width: 1160px;
-    margin: 0 auto;
+    margin: auto;
+}
+section {
+    /* border: 2px dashed rgb(0, 0, 0); */
+
 }
 
-.bg-menu {
-    background-color: rgb(173,216,230);
-    padding: 10px 100%;
+/*------------------- BACKGROUND -------------------*/
+
+header {
+    background-color: rgb(173, 216, 230);
+    padding: 12px;
 }
 
 .menu {
+    justify-content: space-between;
+}
+
+.menu > div {
     background-color: rgb(218, 165, 32);
-    display: flex;
-    width: 1160px;
+    border: 1px dashed black;
     line-height: 30px;
 }
 
-p {
+.logo, .login {
+    width: 20%;
+}
+
+.link {
     width: 60%;
     text-align: center;
 }
-.logo {
-    width: 20%;
+.hero {
+    background-color: blue;
+    justify-content: center;
+    padding: 50px 0;
 }
-.login {
-    width: 20%;
-    text-align: right;
-}
-
-div {
-    border: 1px solid black;
+.square {
+    background-color: rgb(238, 130, 238);
+    width: 900px;
+    height: 400px;
 }
