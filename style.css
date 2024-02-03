@@ -18,8 +18,8 @@
     width: 1160px;
     margin: auto;
 }
-.section {
-    
+body {
+    border-bottom: 3px solid rgb(238, 238, 238);
 }
 
 /*------------------- BARRA MENU -------------------*/
@@ -36,13 +36,13 @@ header {
     line-height: 30px;
     padding: 0 10px;
 }
-.logo, .login {
+.menu-logo, .menu-login {
     width: 20%;
 }
-.login {
+.menu-login {
     text-align: right;
 }
-.link {
+.menu-link {
     width: 60%;
     text-align: center;
 }
@@ -119,4 +119,21 @@ footer .hero {
 .celeste {
     display: flex;
     width: calc((100% / 3) * 2);
+}
+.top {
+    border-bottom: 1px solid rgb(238, 238, 238);
+}
+.bar {
+    background-color: rgb(127, 255, 212);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+.logo, .bottone {
+    background-color: rgb(255, 182, 193);
+    border: 1px dashed black;
+    margin: 20px 0px;
+    padding: 5px;
+    width: fit-content;
 }
