@@ -21,31 +21,28 @@ section {
 
 }
 
-/*------------------- BACKGROUND -------------------*/
-
+/*------------------- BARRA MENU -------------------*/
 header {
     background-color: rgb(173, 216, 230);
     padding: 12px;
 }
-
 .menu {
     justify-content: space-between;
 }
-
 .menu > div {
     background-color: rgb(218, 165, 32);
     border: 1px dashed black;
     line-height: 30px;
 }
-
 .logo, .login {
     width: 20%;
 }
-
 .link {
     width: 60%;
     text-align: center;
 }
+
+/*------------------- MAIN -------------------*/
 .hero {
     background-color: blue;
     justify-content: center;
@@ -53,6 +50,7 @@ header {
 }
 .square {
     background-color: rgb(238, 130, 238);
+    border: 1px dashed black;
     width: 900px;
     height: 400px;
 }
