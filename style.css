@@ -19,7 +19,7 @@
     margin: auto;
 }
 .section {
-    height: 500px;
+    
 }
 
 /*------------------- BARRA MENU -------------------*/
@@ -50,7 +50,6 @@ header {
 .hero {
     background-color: rgb(0, 0, 139);
     justify-content: center;
-    padding: 50px 0;
 }
 .square {
     border: 1px dashed black;
@@ -62,3 +61,18 @@ header {
 }
 
 /*------------------- SEZIONE BIANCA -------------------*/
+.white {
+    background-color: white;
+}
+.lightblue {
+    background-color: rgb(30, 144, 255);
+    width: 60%;
+}
+.lightpink {
+    background-color: lightpink;
+    width: 40%;
+}
+.square, .lightblue, .lightpink {
+    margin: 50px 0;
+    height: 500px;
+}
