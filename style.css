@@ -76,3 +76,11 @@ header {
     margin: 50px 0;
     height: 500px;
 }
+
+/*------------------- SEZIONE GREY -------------------*/
+.grey {
+    background-color: lightgray;
+}
+.grey .container {
+    flex-direction: row-reverse;
+}
