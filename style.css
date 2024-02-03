@@ -13,12 +13,13 @@
 /*------------------- GENERAL -------------------*/
 .container {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     width: 1160px;
     margin: auto;
 }
-section {
-    /* border: 2px dashed rgb(0, 0, 0); */
-
+.section {
+    height: 500px;
 }
 
 /*------------------- BARRA MENU -------------------*/
@@ -37,6 +38,9 @@ header {
 .logo, .login {
     width: 20%;
 }
+.login {
+    text-align: right;
+}
 .link {
     width: 60%;
     text-align: center;
@@ -44,13 +48,17 @@ header {
 
 /*------------------- MAIN -------------------*/
 .hero {
-    background-color: blue;
+    background-color: rgb(0, 0, 139);
     justify-content: center;
     padding: 50px 0;
 }
 .square {
-    background-color: rgb(238, 130, 238);
     border: 1px dashed black;
+}
+.hero .square {
+    background-color: rgb(238, 130, 238);
     width: 900px;
     height: 400px;
 }
+
+/*------------------- SEZIONE BIANCA -------------------*/
